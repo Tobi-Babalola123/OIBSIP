@@ -1,0 +1,108 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  line-height: 1.6;
+  background-color: #f4f7fc;
+  color: #333;
+  padding: 20px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.title {
+  font-family: "Lobster", cursive;
+  font-size: 3rem;
+  color: #34495e;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  font-size: 1.2rem;
+  color: #7f8c8d;
+}
+
+.image-section {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.tribute-image {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+main {
+  margin-bottom: 40px;
+}
+
+h2 {
+  font-size: 2rem;
+  color: #34495e;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+.info-section p {
+  font-size: 1.1rem;
+  margin-bottom: 15px;
+  line-height: 1.8;
+}
+
+.achievements ul {
+  list-style-type: disc;
+  margin-left: 30px;
+  font-size: 1.1rem;
+}
+
+.achievements li {
+  margin-bottom: 10px;
+}
+
+.quote-section {
+  margin-top: 30px;
+  text-align: center;
+  font-style: italic;
+  background-color: #ecf0f1;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.quote {
+  font-size: 1.5rem;
+  color: #16a085;
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #34495e;
+  color: #fff;
+  border-radius: 8px;
+  margin-top: 40px;
+}
+
+footer p {
+  font-size: 1rem;
+}
